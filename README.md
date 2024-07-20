@@ -8,9 +8,11 @@ This package contains the data and code necessary to replicate the experiments c
 - annotated_comments_binary.csv: Dataset used for binary sarcasm detection.
 
 # Code Files:
-- GRU, BiGRU, CNN_for multiclassification_sarcasm.ipynb: Jupyter notebook for multiclass sarcasm detection using GRU, BiGRU, and CNN models.
-- LSTM, BILSTM_Multi_classification_sarcasm.ipynb: Jupyter notebook for multiclass sarcasm detection using LSTM and BiLSTM models.
-- RNN_BiRNN_MultiClassification_sarcasm__Dataset.ipynb: Jupyter notebook for multiclass sarcasm detection using RNN and BiRNN models.
+- Multi Classification sarcasm detection python code (DL algorithms):
+  - GRU, BiGRU, CNN_for_multiclassification_sarcasm.ipynb: Jupyter notebook for multiclass sarcasm detection using GRU, BiGRU, and CNN models.
+  - LSTM, BILSTM_Multi_classification_sarcasm.ipynb: Jupyter notebook for multiclass sarcasm detection using LSTM and BiLSTM models.
+  - RNN_BiRNN_MultiClassification_sarcasm_Dataset.ipynb: Jupyter notebook for multiclass sarcasm detection using RNN and BiRNN models.
+- binary classification updated: Folder containing updated notebooks for binary classification (specific notebooks to be listed).
 
 # Requirements
 - Python 3.x
@@ -25,9 +27,9 @@ This package contains the data and code necessary to replicate the experiments c
 ## Multiclass Classification:
 1. Open Sarcasm_multiclassification.csv for data overview.
 2. Choose and run one of the following notebooks based on the desired model:
-   - GRU, BiGRU, CNN_for multiclassification_sarcasm.ipynb
+   - GRU, BiGRU, CNN_for_multiclassification_sarcasm.ipynb
    - LSTM, BILSTM_Multi_classification_sarcasm.ipynb
-   - RNN_BiRNN_MultiClassification_sarcasm__Dataset.ipynb
+   - RNN_BiRNN_MultiClassification_sarcasm_Dataset.ipynb
 
 # Data Description
 - Sarcasm_multiclassification.csv contains multiple labels per comment for sarcasm detection.
